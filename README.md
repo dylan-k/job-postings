@@ -81,7 +81,7 @@ job post
 -->
 
 <?php if( has_term('volunteer', 'jobtype') ):  ?>
-  <a class="button event_detail_button" href="https://thewalters.org/about/resources/jobs/volunteer-application/?pos=<?php echo base64_encode(get_the_title()); ?>&mgr=<?php echo base64_encode(get_field('jobs_manager')); ?>">APPLY</a>
+  <a class="button event_detail_button" href="https://example.org/volunteer-application/?pos=<?php echo base64_encode(get_the_title()); ?>&mgr=<?php echo base64_encode(get_field('jobs_manager')); ?>">APPLY</a>
 <?php endif; ?>
               
 ```
