@@ -77,7 +77,7 @@ job post
 
 <!-- button goes here -->
 <!-- url: 
-<a href="https://thewalters.org/jobs/apply/?pos=<?php echo base64_encode(get_the_title()); ?>&mgr=<?php echo base64_encode(get_field('jobs_manager')); ?>">APPLY</a>
+<a href="https://example.org/jobs/apply/?pos=<?php echo base64_encode(get_the_title()); ?>&mgr=<?php echo base64_encode(get_field('jobs_manager')); ?>">APPLY</a>
 -->
 
 <?php if( has_term('volunteer', 'jobtype') ):  ?>
