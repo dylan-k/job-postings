@@ -58,7 +58,7 @@ job post
 
 <?php if( has_term('internship', 'jobtype') ):  ?>
 <!-- this is an internship -->
-<p><small>The Walters Art Museum is pleased to offer opportunities for qualified undergraduate and graduate candidates to intern in various museum divisions throughout the year. Based on a system of supervised learning, the internships enable interns to understand how a museum operates and how to relate this experience to academic and professional goals. Credit can be arranged with your college/university.</small></p>
+<p><small>We offer opportunities for qualified undergraduate and graduate candidates to intern in various museum divisions throughout the year...</small></p>
 
 
 <?php endif; ?>
